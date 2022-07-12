@@ -1,0 +1,32 @@
+.grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px calc((100% - 960px) / 2);
+  gap: 20px;
+}
+
+.title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.container {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #1363DF;
+  background: #EAF6F6;
+}
+
+.imgContainer {
+  width: 100%;
+}
+
+.img {
+  display: flex;
+  margin: 0 auto;
+}
